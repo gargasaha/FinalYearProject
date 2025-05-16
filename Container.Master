@@ -1,0 +1,72 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Container.master.cs" Inherits="FinalYearProject.Container" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+</head>
+<body>
+    <script type="text/javascript">
+    function preventBack() {
+        window.history.forward();
+    }
+    setTimeout("preventBack()", 0);
+    window.onunload = function () {
+        null
+        };
+
+           
+    
+    </script>
+    <form id="form1" runat="server">
+        <%--<div style="background-color: #d51852; display: flex; justify-content: center; margin: 0px 30px 0px 30px; border-top-left-radius: 50px; border-top-right-radius: 50px;">
+            <div style="text-align: center; font-family: 'Castellar'; font-size: 70px; width: max-content; color: #ffffff">
+                Friend Book
+            </div>
+        </div>--%>
+        <asp:Label runat="server" Text="0" ID="fl" Visible="false"></asp:Label>
+        <div style="display: flex;padding:0;margin:0;">
+            <div style="width: 130px; height:98vh; background-color: lightgray">
+                <div style="text-align: center; padding: 10px">
+                    <%--<image src="~\IMAGES\go.jpg" style="border-radius: 50%" height="50" width="60"></image>--%>
+                    <asp:Image runat="server" ImageUrl="~/IMAGES/go.jpg" Height="70" Width="70" />
+                </div>
+                <div style="text-align: center; padding: 10px; margin-top: 160px">
+                    <asp:ImageButton runat="server" src="\IMAGES\profileIcon.png" Style="border-radius: 50%" Height="40" Width="50" PostBackUrl="~/EditProfile.aspx"></asp:ImageButton>
+                </div>
+                <asp:panel runat="server" style="text-align: center; padding: 10px;">
+                    <asp:ImageButton runat="server" src="\IMAGES\settingIcon.png" Style="border-radius: 50%" Height="40" Width="50" OnClick="increaseDecrease"></asp:ImageButton>
+                </asp:panel>
+                <div runat="server" id="lightDark" visible="false" style="text-align: center; padding: 10px;">
+                    <asp:ImageButton runat="server"  ImageUrl="~/IMAGES/light.png" Height="40" Width="50" OnClick="makeThemeLight" />
+                    
+                    <asp:ImageButton runat="server"  ImageUrl="~/IMAGES/dark.png" Height="40" Width="50" OnClick="makeThemeDark" />
+                </div>
+                <div style="text-align: center; padding: 10px;">
+                    <asp:ImageButton runat="server" OnClick="gotoaf" ImageUrl="~/IMAGES/addFrnd.png" Height="40" Width="50" />
+                </div>
+
+                <div style="text-align: center; padding: 10px;">
+                    <asp:ImageButton runat="server" OnClick="gotoch" ImageUrl="~/IMAGES/chat.png" Height="40" Width="50" />
+                </div>
+
+                <div style="text-align: center; padding: 10px; margin-top: 170px;">
+                    <asp:ImageButton runat="server" ID="usrimg" Style="border-radius: 50%" Height="40" Width="50" OnClick="showMenuBar"></asp:ImageButton>
+                    <div runat="server" id="menubar" style="background-color: black; margin-bottom: 10px; padding: 10px; display: flex; flex-direction: column; row-gap: 10px;" visible="false">
+                        
+                        <asp:Button runat="server" Text="Log Out" Style="border-radius: 25px;cursor:pointer" ID="b2" OnClick="logOut" />
+                    </div>
+                </div>
+            </div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+
+                <iframe runat="server"></iframe>
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>
