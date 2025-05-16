@@ -98,27 +98,32 @@ Friendlify is a secure communication platform developed to strengthen personal a
 - Custom background images
 - Account deletion feature
 
+##Logo--
 
-![Alt Text](https://github.com/gargasaha/FinalYearProject/blob/main/friendlify_images/slide10_image12.jpg)
+![Alt Text](https://github.com/gargasaha/FinalYearProject/blob/main/friendlify_images/slide3_image2.png)
+
+##Registration
+
+![Alt Text](https://github.com/gargasaha/FinalYearProject/blob/main/friendlify_images/slide8_image8.png)
+
+##Email verification
+![Alt Text](https://github.com/gargasaha/FinalYearProject/blob/main/friendlify_images/slide6_image5.jpg)
+
+##Additional information gathering
+![Alt Text](https://github.com/gargasaha/FinalYearProject/blob/main/friendlify_images/slide11_image14.jpg)
 ![Alt Text](https://github.com/gargasaha/FinalYearProject/blob/main/friendlify_images/slide10_image13.jpg)
-![Alt Text](path/to/image)
-![Alt Text](path/to/image)
-![Alt Text](path/to/image)
-![Alt Text](path/to/image)
-![Alt Text](path/to/image)
-![Alt Text](path/to/image)
-![Alt Text](path/to/image)
-![Alt Text](path/to/image)
-![Alt Text](path/to/image)
-![Alt Text](path/to/image)
-![Alt Text](path/to/image)
-![Alt Text](path/to/image)
-![Alt Text](path/to/image)
-![Alt Text](path/to/image)
-![Alt Text](path/to/image)
-![Alt Text](path/to/image)
-![Alt Text](path/to/image)
-![Alt Text](path/to/image)
+
+##Index page or home page having online/offline friend lists on left side and friend requests on right side and on center main chat module
+![Alt Text](https://github.com/gargasaha/FinalYearProject/blob/main/friendlify_images/slide18_image25.png)
+
+##Add friend page
+![Alt Text](https://github.com/gargasaha/FinalYearProject/blob/main/friendlify_images/slide14_image19.jpg)
+
+#Forget password page
+![Alt Text](https://github.com/gargasaha/FinalYearProject/blob/main/friendlify_images/slide24_image36.png)
+
+#Overall chatting scenatio
+![Alt Text](https://github.com/gargasaha/FinalYearProject/blob/main/friendlify_images/slide20_image28.jpg)
 
 
 
