@@ -98,6 +98,32 @@ Friendlify is a secure communication platform developed to strengthen personal a
 - Custom background images
 - Account deletion feature
 
+
+![Alt Text](https://github.com/gargasaha/FinalYearProject/blob/main/friendlify_images/slide10_image12.jpg)
+![Alt Text](https://github.com/gargasaha/FinalYearProject/blob/main/friendlify_images/slide10_image13.jpg)
+![Alt Text](path/to/image)
+![Alt Text](path/to/image)
+![Alt Text](path/to/image)
+![Alt Text](path/to/image)
+![Alt Text](path/to/image)
+![Alt Text](path/to/image)
+![Alt Text](path/to/image)
+![Alt Text](path/to/image)
+![Alt Text](path/to/image)
+![Alt Text](path/to/image)
+![Alt Text](path/to/image)
+![Alt Text](path/to/image)
+![Alt Text](path/to/image)
+![Alt Text](path/to/image)
+![Alt Text](path/to/image)
+![Alt Text](path/to/image)
+![Alt Text](path/to/image)
+![Alt Text](path/to/image)
+
+
+
+
+
 ---
 
 ## 🙏 Thank You for Reading
