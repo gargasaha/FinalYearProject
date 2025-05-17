@@ -1,136 +1,146 @@
-# Friendlify
+# 🌐 Friendlify
 
-A communication system project designed to connect people through a secure and user-friendly chat application.
-
-## 👥 Project by
-- **Garga Saha**
-
-**Department of Computer Science Application**  
-**University of Gour Banga, Malda**  
-**Date:** June 2024
+*A secure & user-friendly chat application designed to connect people seamlessly.*
 
 ---
 
-## 📌 Introduction
+## 👤 Project by
 
-Friendlify is a secure communication platform developed to strengthen personal and professional relationships. It enables users to stay connected through text and image sharing, friend request validation, and profile-based interactions. Built with an emphasis on user authenticity, the platform requires OTP-based email verification during registration.
+**Garga Saha**  
+Department of Computer Science Application  
+University of Gour Banga, Malda  
+📅 **Date:** June 2024
+
+---
+
+## 📘 Introduction
+
+**Friendlify** is a real-time communication platform that prioritizes **user authenticity, security**, and **seamless interaction**. With features like OTP-based email verification, profile management, friend request validation, and real-time chat, Friendlify brings social and professional connections closer than ever.
 
 ---
 
 ## 🎯 Objectives
 
-- OTP-based email verification
-- Secure user registration with contact details
-- Profile editing and image upload
-- Friend request management system
-- Real-time chat functionality with text & image support
-- Online/offline indicators
-- Protected interaction (chat only after accepting friend requests)
+- ✅ OTP-based email verification  
+- ✅ Secure registration with full profile  
+- ✅ Profile editing & image upload  
+- ✅ Friend request sending & handling  
+- ✅ Real-time chat with image support  
+- ✅ Online/offline status indicators  
+- ✅ Controlled chat access (only after request approval)  
 
 ---
 
 ## 🔐 Key Features
 
-- **Email Verification**: Validates user email with OTP before account creation.
-- **User Registration**: Requires name, email, phone number, address, and image upload.
-- **Profile Management**: Update your profile photo and personal details.
-- **Friend Requests**: Send, accept, or reject requests; view profile before sending.
-- **Chat Interface**: Real-time message exchange with image sharing.
-- **Status Indicators**: Online (green) and offline (red) markers.
-- **Login/Password Recovery**: Email-based password reset via OTP.
+- **Email Verification** – Validates email via OTP  
+- **User Registration** – Collects full contact info with image  
+- **Profile Management** – Update personal info anytime  
+- **Friend Requests** – Send, accept, reject, and preview profile  
+- **Chat Interface** – Real-time chat with media support  
+- **Status Indicators** – Online (🟢) & Offline (🔴) tags  
+- **Password Recovery** – OTP-based email reset  
 
 ---
 
 ## 🧠 System Design
 
-### Data Flow Diagrams
-- **Level 0**
-- **Level 1**
-- **Level 2**
+### 📊 Data Flow Diagrams
 
-### ER Diagram
-- Depicts relationships among user data, chat sessions, and requests.
+- **Level 0** – Overall system interaction  
+- **Level 1** – Functional module decomposition  
+- **Level 2** – Internal process-level interactions  
+
+### 📚 ER Diagram
+
+- Visualizes user, request, and chat data relationships
 
 ---
 
-## 📊 Effort and Cost Estimation
+## 💰 Effort & Cost Estimation
 
-- **Object Points**: 21
-- **NOP**: ≈ 20.91
-- **Productivity Rate**: ≈ 6.97
-- **Estimated Effort**: ≈ 3 person-months
-- **Total Project Cost**: ₹7,500
+| Metric                | Value            |
+|-----------------------|------------------|
+| Object Points         | 21               |
+| NOP                   | ≈ 20.91          |
+| Productivity Rate     | ≈ 6.97           |
+| Estimated Effort      | ≈ 3 Person-Months|
+| 💵 Total Cost         | ₹7,500           |
 
 ---
 
 ## 💻 Requirements
 
-### Hardware
-- **OS**: Windows 7/8/10/11
-- **RAM**: 1GB / 2GB
-- **Processor**: Core 2 Duo / Core i3
-- **Network**: AE-360PCI Ethernet Adapter
+### 🖥️ Hardware
 
-### Software
-- **Languages & Frameworks**: ASP.NET (C#), .NET Framework 4.5
-- **Database**: MS SQL Server 2012
-- **Browser**: Any modern browser
-- **Server**: IIS 6.0
+- **OS**: Windows 7/8/10/11  
+- **RAM**: 1GB / 2GB  
+- **Processor**: Core 2 Duo / Core i3  
+- **Network**: AE-360PCI Ethernet Adapter  
+
+### ⚙️ Software
+
+- **Languages**: ASP.NET (C#), .NET Framework 4.5  
+- **Database**: MS SQL Server 2012  
+- **Browser**: Any modern browser  
+- **Server**: IIS 6.0  
 
 ---
 
-## ✅ Software Testing
+## 🧪 Software Testing
 
-### White-Box Testing
-- Tests all code paths, logic conditions, and loops.
+### ⚪ White-Box Testing
 
-### Black-Box Testing
-- Validates input/output handling, performance, and data boundaries.
+- Logical paths, loops, and conditions tested.
+
+### ⚫ Black-Box Testing
+
+- Validates input/output boundaries and system performance.
 
 ---
 
 ## 🔮 Future Scope
 
-- Video messaging
-- Emojis and GIF support
-- Group chatting
-- Document sharing
-- Custom background images
-- Account deletion feature
-
-##Logo--
-
-![Alt Text](https://github.com/gargasaha/FinalYearProject/blob/main/friendlify_images/slide3_image2.png)
-
-##Registration
-
-![Alt Text](https://github.com/gargasaha/FinalYearProject/blob/main/friendlify_images/slide8_image8.png)
-
-##Email verification
-![Alt Text](https://github.com/gargasaha/FinalYearProject/blob/main/friendlify_images/slide6_image5.jpg)
-
-##Additional information gathering
-![Alt Text](https://github.com/gargasaha/FinalYearProject/blob/main/friendlify_images/slide11_image14.jpg)
-![Alt Text](https://github.com/gargasaha/FinalYearProject/blob/main/friendlify_images/slide10_image13.jpg)
-
-##Index page or home page having online/offline friend lists on left side and friend requests on right side and on center main chat module
-![Alt Text](https://github.com/gargasaha/FinalYearProject/blob/main/friendlify_images/slide18_image25.png)
-
-##Add friend page
-![Alt Text](https://github.com/gargasaha/FinalYearProject/blob/main/friendlify_images/slide14_image19.jpg)
-
-#Forget password page
-![Alt Text](https://github.com/gargasaha/FinalYearProject/blob/main/friendlify_images/slide24_image36.png)
-
-#Overall chatting scenatio
-![Alt Text](https://github.com/gargasaha/FinalYearProject/blob/main/friendlify_images/slide20_image28.jpg)
-
-
-
-
+- 🎥 Video messaging  
+- 😄 Emojis and GIF support  
+- 👥 Group chatting  
+- 📁 Document sharing  
+- 🖼️ Custom chat backgrounds  
+- 🗑️ Account deletion option  
 
 ---
 
-## 🙏 Thank You for Reading
+## 📸 Screenshots
 
-**Stay connected with Friendlify — your Indian communication platform!**
+### 🪪 Logo  
+![Logo](https://github.com/gargasaha/FinalYearProject/blob/main/friendlify_images/slide3_image2.png)
+
+### 📝 Registration  
+![Registration](https://github.com/gargasaha/FinalYearProject/blob/main/friendlify_images/slide8_image8.png)
+
+### 📧 Email Verification  
+![Email Verification](https://github.com/gargasaha/FinalYearProject/blob/main/friendlify_images/slide6_image5.jpg)
+
+### 🗃️ Additional Information  
+![Info 1](https://github.com/gargasaha/FinalYearProject/blob/main/friendlify_images/slide11_image14.jpg)  
+![Info 2](https://github.com/gargasaha/FinalYearProject/blob/main/friendlify_images/slide10_image13.jpg)
+
+### 🏠 Home Page  
+> Left: Online friends | Right: Friend requests | Center: Chat module  
+![Home](https://github.com/gargasaha/FinalYearProject/blob/main/friendlify_images/slide18_image25.png)
+
+### ➕ Add Friend  
+![Add Friend](https://github.com/gargasaha/FinalYearProject/blob/main/friendlify_images/slide14_image19.jpg)
+
+### 🔐 Forgot Password  
+![Forget Password](https://github.com/gargasaha/FinalYearProject/blob/main/friendlify_images/slide24_image36.png)
+
+### 💬 Chat View  
+![Chat](https://github.com/gargasaha/FinalYearProject/blob/main/friendlify_images/slide20_image28.jpg)
+
+---
+
+## 🙏 Thank You
+
+> _Stay connected with **Friendlify** — your Indian communication platform 🇮🇳_
+
